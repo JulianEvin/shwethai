@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shwe Thai Marketing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Padauk:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Dm San', 'Padauk', 'sans-serif'],
+              burmese: ['myanmar angoun', 'sans-serif'],
+            },
+            colors: {
+              shwe: {
+                gold: '#D4AF37',
+                50: '#FBF7E6',
+                100: '#F5EBCF',
+                500: '#D4AF37',
+                600: '#AA8C2C',
+                900: '#423611',
+              },
+              thai: {
+                DEFAULT: '#202580', // primary-blue
+                50: '#F2F3FC',
+                100: '#E0E2F5',
+                200: '#C0C4EB',
+                500: '#202580', // primary-blue
+                600: '#10138c', // hover-blue
+                700: '#002d96', // location-blue
+                800: '#001e66',
+                900: '#000f33',
+                red: '#e21b1b', // hospital-red
+              }
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-50 text-gray-900 font-sans antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

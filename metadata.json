@@ -1,0 +1,6 @@
+{
+  "name": "Shwe Thai Marketing",
+  "description": "Premium AI Marketing Studio with dedicated Health Article Writer, TikTok scripts, visual mockup generation, and strategic consultations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
